@@ -1,0 +1,405 @@
+node_modules/@react-navigation/core/lib/typescript/src/StaticNavigation.d.ts(37,27): error TS2315: Type 'StaticParamList' is not generic.
+node_modules/@react-navigation/core/lib/typescript/src/StaticNavigation.d.ts(39,27): error TS2315: Type 'StaticParamList' is not generic.
+node_modules/@react-navigation/core/lib/typescript/src/StaticNavigation.d.ts(134,13): error TS2456: Type alias 'StaticParamList' circularly references itself.
+node_modules/@react-navigation/core/lib/typescript/src/useNavigationBuilder.d.ts(86,136): error TS2344: Type 'Omit<{ dispatch(action: Readonly<{ type: string; payload?: object; source?: string; target?: string; }> | ((state: Readonly<State>) => Readonly<{ type: string; payload?: object; source?: string; target?: string; }>)): void; ... 9 more ...; getState(): State; } & PrivateValueStore<...>, "getParent"> & ... 4 more ... ...' does not satisfy the constraint 'NavigationProp<any, any, any, any, any, any>'.
+  Type 'Omit<{ dispatch(action: Readonly<{ type: string; payload?: object; source?: string; target?: string; }> | ((state: Readonly<State>) => Readonly<{ type: string; payload?: object; source?: string; target?: string; }>)): void; ... 9 more ...; getState(): State; } & PrivateValueStore<...>, "getParent"> & ... 4 more ... ...' is not assignable to type 'Omit<NavigationHelpersCommon<any, any>, "getParent">'.
+    Types of property 'preload' are incompatible.
+      Type '<RouteName extends string>(...args: RouteName extends unknown ? [screen: RouteName, params?: object] : never) => void' is not assignable to type '<RouteName extends string | number | symbol>(...args: RouteName extends unknown ? [screen: RouteName, params?: any] : never) => void'.
+        Types of parameters 'screen' and 'args' are incompatible.
+          Type 'RouteName extends unknown ? [screen: RouteName, params?: any] : never' is not assignable to type '[screen: string, params?: object]'.
+            Type '[screen: string, params?: any] | [screen: number, params?: any] | [screen: symbol, params?: any]' is not assignable to type '[screen: string, params?: object]'.
+              Type '[screen: number, params?: any]' is not assignable to type '[screen: string, params?: object]'.
+                Type at position 0 in source is not compatible with type at position 0 in target.
+                  Type 'number' is not assignable to type 'string'.
+node_modules/@react-navigation/core/lib/typescript/src/useNavigationBuilder.d.ts(138,77): error TS2344: Type 'Omit<{ dispatch(action: Readonly<{ type: string; payload?: object; source?: string; target?: string; }> | ((state: Readonly<State>) => Readonly<{ type: string; payload?: object; source?: string; target?: string; }>)): void; ... 9 more ...; getState(): State; } & PrivateValueStore<...>, "getParent"> & ... 4 more ... ...' does not satisfy the constraint 'NavigationProp<any, any, any, any, any, any>'.
+  Type 'Omit<{ dispatch(action: Readonly<{ type: string; payload?: object; source?: string; target?: string; }> | ((state: Readonly<State>) => Readonly<{ type: string; payload?: object; source?: string; target?: string; }>)): void; ... 9 more ...; getState(): State; } & PrivateValueStore<...>, "getParent"> & ... 4 more ... ...' is not assignable to type 'Omit<NavigationHelpersCommon<any, any>, "getParent">'.
+    Types of property 'preload' are incompatible.
+      Type '<RouteName extends string>(...args: RouteName extends unknown ? [screen: RouteName, params?: object] : never) => void' is not assignable to type '<RouteName extends string | number | symbol>(...args: RouteName extends unknown ? [screen: RouteName, params?: any] : never) => void'.
+        Types of parameters 'screen' and 'args' are incompatible.
+          Type 'RouteName extends unknown ? [screen: RouteName, params?: any] : never' is not assignable to type '[screen: string, params?: object]'.
+            Type '[screen: string, params?: any] | [screen: number, params?: any] | [screen: symbol, params?: any]' is not assignable to type '[screen: string, params?: object]'.
+              Type '[screen: number, params?: any]' is not assignable to type '[screen: string, params?: object]'.
+                Type at position 0 in source is not compatible with type at position 0 in target.
+                  Type 'number' is not assignable to type 'string'.
+node_modules/@react-navigation/native-stack/lib/typescript/src/types.d.ts(3,58): error TS2305: Module '"react-native-screens"' has no exported member 'ScrollEdgeEffect'.
+node_modules/@types/node/module.d.ts(739,13): error TS2403: Subsequent variable declarations must have the same type.  Variable 'require' must be of type 'NodeRequire', but here has type 'Require'.
+node_modules/expo-router/build/ExpoRoot.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/expo-router/build/layouts/TabsClient.d.ts(3,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/expo-router/build/layouts/TabsClient.d.ts(16,210): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(17,216): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(18,212): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(19,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(20,194): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(21,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(28,210): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(29,216): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(30,212): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(31,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(32,194): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(33,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(65,210): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(66,216): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(67,212): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(68,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(69,194): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(70,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(77,210): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(78,216): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(79,212): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(80,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(81,194): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(82,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(109,210): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(110,216): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(111,212): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(112,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(113,194): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(114,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(121,210): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(122,216): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(123,212): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(124,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(125,194): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/layouts/TabsClient.d.ts(126,196): error TS2344: Type 'unknown' does not satisfy the constraint 'boolean'.
+node_modules/expo-router/build/link/elements.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/expo-router/build/useScreens.d.ts(2,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/expo-router/build/views/Sitemap.d.ts(2,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/expo-router/build/views/Try.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/expo-router/build/views/Unmatched.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/FullWindowOverlay.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/Screen.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/ScreenContainer.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/ScreenContentWrapper.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/ScreenFooter.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/ScreenStack.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/ScreenStackHeaderConfig.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/ScreenStackHeaderConfig.d.ts(7,79): error TS2503: Cannot find namespace 'JSX'.
+node_modules/react-native-screens/lib/typescript/components/ScreenStackHeaderConfig.d.ts(8,72): error TS2503: Cannot find namespace 'JSX'.
+node_modules/react-native-screens/lib/typescript/components/ScreenStackHeaderConfig.d.ts(9,71): error TS2503: Cannot find namespace 'JSX'.
+node_modules/react-native-screens/lib/typescript/components/ScreenStackHeaderConfig.d.ts(10,73): error TS2503: Cannot find namespace 'JSX'.
+node_modules/react-native-screens/lib/typescript/components/ScreenStackHeaderConfig.d.ts(11,76): error TS2503: Cannot find namespace 'JSX'.
+node_modules/react-native-screens/lib/typescript/components/SearchBar.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/bottom-tabs/BottomTabs.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/bottom-tabs/BottomTabsScreen.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/gamma/ScreenStackHost.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/gamma/SplitViewHost.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/gamma/SplitViewScreen.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/components/gamma/StackScreen.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-screens/lib/typescript/native-stack/types.d.ts(72,155): error TS2344: Type 'StackNavigationState<ParamList>' does not satisfy the constraint 'string'.
+node_modules/react-native-screens/lib/typescript/native-stack/types.d.ts(537,41): error TS2314: Generic type 'DefaultNavigatorOptions' requires 6 type argument(s).
+node_modules/react-native-screens/lib/typescript/native-stack/types.d.ts(541,37): error TS2314: Generic type 'Descriptor' requires 3 type argument(s).
+node_modules/react-native-screens/lib/typescript/types.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeBlend.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeColorMatrix.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeComponentTransfer.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeComponentTransferFunction.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeComposite.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeDropShadow.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeFlood.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeGaussianBlur.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeMerge.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeMergeNode.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/FeOffset.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/elements/filters/Filter.d.ts(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native-svg/lib/typescript/lib/extract/types.d.ts(2,13): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+node_modules/react-native/src/types/globals.d.ts(10,1): error TS6200: Definitions of the following identifiers conflict with those in another file: EndingType, BlobPart, BufferSource, FormData, RequestInfo, XMLHttpRequestResponseType, AbortSignal, AbortController
+node_modules/react-native/src/types/globals.d.ts(166,7): error TS2403: Subsequent variable declarations must have the same type.  Variable 'Blob' must be of type '{ new (blobParts?: BlobPart[], options?: BlobPropertyBag): Blob; prototype: Blob; }', but here has type '{ new (blobParts?: (string | Blob)[], options?: BlobOptions): Blob; prototype: Blob; }'.
+node_modules/react-native/src/types/globals.d.ts(180,7): error TS2403: Subsequent variable declarations must have the same type.  Variable 'File' must be of type '{ new (fileBits: BlobPart[], fileName: string, options?: FilePropertyBag): File; prototype: File; }', but here has type '{ new (fileParts: BlobPart[], name: string, options?: FilePropertyBag): File; prototype: File; }'.
+node_modules/react-native/src/types/globals.d.ts(266,5): error TS2717: Subsequent property declarations must have the same type.  Property 'body' must be of type 'BodyInit', but here has type 'BodyInit_'.
+node_modules/react-native/src/types/globals.d.ts(275,5): error TS2717: Subsequent property declarations must have the same type.  Property 'signal' must be of type 'AbortSignal', but here has type 'AbortSignal'.
+node_modules/react-native/src/types/globals.d.ts(285,14): error TS2717: Subsequent property declarations must have the same type.  Property 'signal' must be of type 'AbortSignal', but here has type 'AbortSignal'.
+node_modules/react-native/src/types/globals.d.ts(289,7): error TS2403: Subsequent variable declarations must have the same type.  Variable 'Request' must be of type '{ new (input: RequestInfo | URL, init?: RequestInit): Request; prototype: Request; }', but here has type '{ new (input: string | Request, init?: RequestInit): Request; prototype: Request; }'.
+node_modules/react-native/src/types/globals.d.ts(313,7): error TS2403: Subsequent variable declarations must have the same type.  Variable 'Response' must be of type '{ new (body?: BodyInit, init?: ResponseInit): Response; prototype: Response; error(): Response; json(data: any, init?: ResponseInit): Response; redirect(url: string | URL, status?: number): Response; }', but here has type '{ new (body?: BodyInit_, init?: ResponseInit): Response; prototype: Response; error(): Response; json(data: any, init?: ResponseInit): Response; redirect: (url: string | URL, status?: number) => Response; }'.
+node_modules/react-native/src/types/globals.d.ts(398,5): error TS2717: Subsequent property declarations must have the same type.  Property 'abort' must be of type 'ProgressEvent<XMLHttpRequestEventTarget>', but here has type 'ProgressEvent<EventTarget>'.
+node_modules/react-native/src/types/globals.d.ts(399,5): error TS2717: Subsequent property declarations must have the same type.  Property 'error' must be of type 'ProgressEvent<XMLHttpRequestEventTarget>', but here has type 'ProgressEvent<EventTarget>'.
+node_modules/react-native/src/types/globals.d.ts(400,5): error TS2717: Subsequent property declarations must have the same type.  Property 'load' must be of type 'ProgressEvent<XMLHttpRequestEventTarget>', but here has type 'ProgressEvent<EventTarget>'.
+node_modules/react-native/src/types/globals.d.ts(401,5): error TS2717: Subsequent property declarations must have the same type.  Property 'loadend' must be of type 'ProgressEvent<XMLHttpRequestEventTarget>', but here has type 'ProgressEvent<EventTarget>'.
+node_modules/react-native/src/types/globals.d.ts(402,5): error TS2717: Subsequent property declarations must have the same type.  Property 'loadstart' must be of type 'ProgressEvent<XMLHttpRequestEventTarget>', but here has type 'ProgressEvent<EventTarget>'.
+node_modules/react-native/src/types/globals.d.ts(403,5): error TS2717: Subsequent property declarations must have the same type.  Property 'progress' must be of type 'ProgressEvent<XMLHttpRequestEventTarget>', but here has type 'ProgressEvent<EventTarget>'.
+node_modules/react-native/src/types/globals.d.ts(404,5): error TS2717: Subsequent property declarations must have the same type.  Property 'timeout' must be of type 'ProgressEvent<XMLHttpRequestEventTarget>', but here has type 'ProgressEvent<EventTarget>'.
+node_modules/react-native/src/types/globals.d.ts(471,7): error TS2403: Subsequent variable declarations must have the same type.  Variable 'URL' must be of type '{ new (url: string | URL, base?: string | URL): URL; prototype: URL; canParse(url: string | URL, base?: string | URL): boolean; createObjectURL(obj: Blob | MediaSource): string; parse(url: string | URL, base?: string | URL): URL; revokeObjectURL(url: string): void; }', but here has type '{ new (url: string | URL, base?: string | URL): URL; prototype: URL; createObjectURL(obj: Blob): string; revokeObjectURL(url: string): void; }'.
+node_modules/react-native/src/types/globals.d.ts(534,5): error TS2717: Subsequent property declarations must have the same type.  Property 'onopen' must be of type '(this: WebSocket, ev: Event) => any', but here has type '() => void'.
+node_modules/react-native/src/types/globals.d.ts(535,5): error TS2717: Subsequent property declarations must have the same type.  Property 'onmessage' must be of type '(this: WebSocket, ev: MessageEvent<any>) => any', but here has type '(event: WebSocketMessageEvent) => void'.
+node_modules/react-native/src/types/globals.d.ts(536,5): error TS2717: Subsequent property declarations must have the same type.  Property 'onerror' must be of type '(this: WebSocket, ev: Event) => any', but here has type '(event: WebSocketErrorEvent) => void'.
+node_modules/react-native/src/types/globals.d.ts(537,5): error TS2717: Subsequent property declarations must have the same type.  Property 'onclose' must be of type '(this: WebSocket, ev: CloseEvent) => any', but here has type '(event: WebSocketCloseEvent) => void'.
+node_modules/react-native/src/types/globals.d.ts(538,5): error TS2717: Subsequent property declarations must have the same type.  Property 'addEventListener' must be of type '{ <K extends keyof WebSocketEventMap>(type: K, listener: (this: WebSocket, ev: WebSocketEventMap[K]) => any, options?: boolean | AddEventListenerOptions): void; (type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions): void; }', but here has type 'WebsocketEventListener'.
+node_modules/react-native/src/types/globals.d.ts(539,5): error TS2717: Subsequent property declarations must have the same type.  Property 'removeEventListener' must be of type '{ <K extends keyof WebSocketEventMap>(type: K, listener: (this: WebSocket, ev: WebSocketEventMap[K]) => any, options?: boolean | EventListenerOptions): void; (type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions): void; }', but here has type 'WebsocketEventListener'.
+node_modules/react-native/src/types/globals.d.ts(542,7): error TS2403: Subsequent variable declarations must have the same type.  Variable 'WebSocket' must be of type '{ new (url: string | URL, protocols?: string | string[]): WebSocket; prototype: WebSocket; readonly CONNECTING: 0; readonly OPEN: 1; readonly CLOSING: 2; readonly CLOSED: 3; }', but here has type '{ new (uri: string, protocols?: string | string[], options?: { [optionName: string]: any; headers: { [headerName: string]: string; }; }): WebSocket; prototype: WebSocket; readonly CLOSED: number; readonly CLOSING: number; readonly CONNECTING: number; readonly OPEN: number; }'.
+node_modules/react-native/src/types/globals.d.ts(627,14): error TS2717: Subsequent property declarations must have the same type.  Property 'error' must be of type 'DOMException', but here has type 'Error'.
+node_modules/react-native/src/types/globals.d.ts(640,14): error TS2717: Subsequent property declarations must have the same type.  Property 'readyState' must be of type '0 | 2 | 1', but here has type 'number'.
+node_modules/typescript/lib/lib.dom.d.ts(23,1): error TS6200: Definitions of the following identifiers conflict with those in another file: EndingType, BlobPart, BufferSource, FormData, RequestInfo, XMLHttpRequestResponseType, AbortSignal, AbortController
+src/screens/ParameterInspectionScreen.tsx(1,8): error TS1259: Module '"/home/sarthak/Documents/Beatle/FDSS/node_modules/@types/react/index"' can only be default-imported using the 'esModuleInterop' flag
+src/screens/ParameterInspectionScreen.tsx(31,24): error TS2307: Cannot find module '@/components/ui/vstack' or its corresponding type declarations.
+src/screens/ParameterInspectionScreen.tsx(32,24): error TS2307: Cannot find module '@/components/ui/hstack' or its corresponding type declarations.
+src/screens/ParameterInspectionScreen.tsx(35,27): error TS2307: Cannot find module '@/src/redux/store' or its corresponding type declarations.
+src/screens/ParameterInspectionScreen.tsx(36,28): error TS2307: Cannot find module '@/src/data/data' or its corresponding type declarations.
+src/screens/ParameterInspectionScreen.tsx(37,28): error TS2307: Cannot find module '@/components/FullPageLoader' or its corresponding type declarations.
+src/screens/ParameterInspectionScreen.tsx(235,5): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(236,7): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(237,7): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(246,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(247,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(251,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(254,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(281,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(282,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(287,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(290,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(291,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(292,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(294,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(295,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(300,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(301,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(302,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(303,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(305,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(306,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(307,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(309,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(310,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(311,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(314,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(315,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(316,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(317,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(319,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(320,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(321,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(327,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(328,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(329,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(330,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(331,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(333,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(335,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(336,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(340,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(342,51): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(343,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(350,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(356,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(357,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(358,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(359,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(361,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(363,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(364,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(368,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(370,52): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(371,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(375,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(382,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(383,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(384,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(385,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(387,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(389,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(400,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(401,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(403,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(404,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(405,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(406,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(408,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(413,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(414,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(421,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(432,42): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(434,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(445,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(459,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(460,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(461,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(462,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(464,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(466,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(478,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(479,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(480,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(481,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(482,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(484,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(489,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(490,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(497,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(509,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(512,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(522,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(535,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(536,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(537,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(538,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(540,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(542,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(554,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(555,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(556,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(557,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(558,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(560,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(565,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(566,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(573,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(585,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(588,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(595,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(608,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(609,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(610,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(611,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(615,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(620,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(628,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(629,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(630,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(638,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(639,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(640,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(649,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(650,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(651,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(660,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(661,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(662,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(671,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(672,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(673,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(685,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(686,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(687,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(688,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(690,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(693,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(694,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(701,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(712,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(715,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(722,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(736,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(737,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(738,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(739,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(740,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(744,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(749,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(750,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(757,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(768,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(771,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(778,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(791,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(792,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(793,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(794,27): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(798,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(800,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(821,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(822,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(823,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(824,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(827,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(832,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(854,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(859,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(861,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(862,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(863,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(864,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(866,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(871,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(872,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(879,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(890,42): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(892,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(903,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(917,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(918,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(919,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(920,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(922,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(924,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(936,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(937,15): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(938,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(939,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(940,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(942,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(947,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(948,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(955,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(967,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(970,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(980,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(993,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(994,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(995,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(996,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(998,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1000,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1012,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1013,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1014,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1015,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1016,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1018,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1023,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1024,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1031,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1043,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1046,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1053,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1066,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1067,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1068,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1069,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1073,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1078,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1086,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1087,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1088,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1096,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1097,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1098,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1107,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1108,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1109,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1118,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1119,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1120,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1129,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1130,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1131,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1143,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1144,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1145,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1146,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1148,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1151,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1152,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1159,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1170,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1173,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1180,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1194,17): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1195,19): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1196,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1197,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1198,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1202,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1207,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1208,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1215,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1226,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1229,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1236,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1249,21): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1250,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1251,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1252,27): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1256,25): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1258,23): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1280,9): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1281,11): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1282,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
+src/screens/ParameterInspectionScreen.tsx(1283,13): error TS17004: Cannot use JSX unless the '--jsx' flag is provided.
