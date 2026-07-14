@@ -38,7 +38,11 @@ export function useLocation() {
         });
         if (results.length > 0) {
           const geo = results[0];
-          street = [geo.streetNumber, geo.street].filter(Boolean).join(' ');
+          street =
+            [geo.streetNumber, geo.street].filter(Boolean).join(' ') ||
+            geo.district ||
+            geo.name ||
+            '';
           city = geo.city ?? geo.subregion ?? '';
           region = geo.region ?? '';
           country = geo.country ?? '';

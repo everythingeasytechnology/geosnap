@@ -296,7 +296,7 @@ export default function CameraScreen() {
         )}
 
         {/* Mode toggle */}
-        <View style={styles.modeRow}>
+        {/* <View style={styles.modeRow}>
           <TouchableOpacity
             onPress={() => switchMode("photo")}
             style={styles.modeBtn}
@@ -328,7 +328,7 @@ export default function CameraScreen() {
             </Text>
             {captureMode === "video" && <View style={styles.modeUnderline} />}
           </TouchableOpacity>
-        </View>
+        </View> */}
 
         {/* Capture row */}
         <View style={styles.captureRow}>
